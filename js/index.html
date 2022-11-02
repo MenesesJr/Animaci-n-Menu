@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - animated menu html  css</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="icon" href="assets/icon/fire-84.webp">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <ul class="menu">
+        <div class= "toggle"><ion-icon name="add"></ion-icon></div>
+        <li style="--i:0;--clr:#ff2972;">
+            <a href="#">
+                <ion-icon name="home"></ion-icon>
+            </a>
+        </li>
+        <li style="--i:1;--clr:#fee800;">
+            <a href="#">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+        </li>
+        <li style="--i:2;--clr:#04fc43;">
+            <a href="#">
+                <ion-icon name="person"></ion-icon>
+            </a>
+        </li>
+        <li style="--i:3;--clr:#fe00f1;">
+             <a href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+        </li>
+        <li style="--i:4;--clr:#00b0fe;">
+            <a href="#">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+        </li>
+        <li style="--i:5;--clr:#fea600;">
+        <a href="#">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+        </a></li>
+        <li style="--i:6;--clr:#a529ff;">
+        <a href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+        <li style="--i:7;--clr:#01bdab;">
+        <a href="#">
+            <ion-icon name="logo-github"></ion-icon>
+        </a></li>
+    </ul >
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+        let toggle = document.querySelector('.toggle')
+        let menu = document.querySelector('.menu')
+        toggle.onclick = function(){
+            menu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
